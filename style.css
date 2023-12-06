@@ -1,0 +1,395 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat ;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+.page1 {
+    height: 100%;
+    width: 100%;
+}
+.nav{
+
+    height: 45px;
+    width: 100%;
+    background-color: #353131;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 42px;
+
+}
+ body h1:hover{
+    scale: .8;
+    transition: all ease 1s;
+ }
+ body h2:hover{
+    scale: .8;
+    transition: all ease 1s;
+ }
+ body h3:hover{
+    scale: .8;
+    transition: all ease 1s;
+ }
+ body h4:hover{
+    scale: .8;
+    transition: all ease 1s;
+ }
+ body .links:hover{
+    scale: .8;
+    transition: all ease 1s;
+ }
+ .nav h4:hover{
+ color: blue;
+    transition: all ease .5s;
+ }
+ .nav i:hover{
+    color: blue;
+       transition: all ease .5s;
+    }
+
+
+.nav > h4{
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-weight: 200;
+}
+
+.nav > i {
+    color: rgba(255, 255, 255, 0.825);
+    scale: .8;
+}
+
+.nav2{
+    height: 40px;
+    width: 100%;
+    color: #353131;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.nav2 > h4 {
+    color: #353131;
+    font-size: 14px;
+    font-weight: 500;
+
+    
+}
+
+.nav2 a {
+    color: royalblue;
+    text-decoration: none;
+}
+
+.center {
+    text-align: center;
+    
+    font-size: 30px;
+    font-weight: 600;
+    color: #353131;
+    background-image: url( https://www.apple.com/v/home/bc/images/heroes/macbook-air-15/hero_macbook_air_15__x63n8tqcpo2u_large_2x.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 89%;
+    
+ }
+
+.center > h3{
+    font-size:   28px;
+    font-weight: 300;
+    transform: translate(0, 50px);
+}
+
+
+
+ .center > h1{
+    transform: translate(0, 50px);
+ }
+ .center a {
+    color: royalblue;
+    text-decoration: none;
+    font-weight: 300;
+    
+}
+
+.center > .links{
+    text-align: center;
+    margin-top: 60px;
+}
+.center > .links a{
+    margin: 20px;
+    color: royalblue;
+    font-size: 22px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.page2{
+    
+    height: 80%;
+    width: 100%;
+    background-image: url( https://www.apple.com/in/home/images/heroes/iphone-14-pro/hero_iphone14pro_spring__9xo85pm6sbmm_large_2x.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.page2 > h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    padding-top: 40px;
+    
+}
+.page2 > h3{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.links{
+    text-align: center;
+    margin-top: 10px;
+}
+.page2 > .links a{
+    margin: 20px;
+    color: royalblue;
+    font-size: 22px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.page3 {
+    height: 80%;
+    width: 100%;
+    background-image: url(https://www.apple.com/in/home/heroes/iphone-14/images/hero_iphone14_yellow__eun20sn4imi6_medium.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.page3 > h1{
+    
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    padding-top: 40px;
+    
+}
+.page3 > h2{
+    
+    text-align: center;
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.page3 > .links a{
+    margin: 20px;
+    color: royalblue;
+    font-size: 22px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.page4{
+    height: 90%;
+    width: 100%;
+    display: flex;
+}
+
+.left{
+
+    width: 50%;
+    height: 100%;
+    background-image: url( https://www.apple.com/in/home/images/promos/why-switch/akshay/promo_switch_to_iphone__dcdfmymgd5ci_large.jpg);
+    background-repeat: no-repeat;
+    background-position:bottom;
+    text-align: center;
+
+}
+
+.left > h1{
+    padding-top:80px ;
+    font-size: 35px;
+}
+
+.left > h3 {
+    font-size: 18px;
+    margin: 10px;
+    font-weight: 500;
+}
+
+.left > .links a {
+    text-decoration: none;
+    margin: 10px;
+    font-size: 18px;
+    color: royalblue;
+    font-weight: 500;
+}
+
+.right{
+    width: 50%;
+    height: 100%;
+    background-color:blueviolet;
+    background-image: url(https://www.apple.com/v/home/bc/images/promos/macbook-air-15/promo_macbook_air_15_midnight__3zojl1nanrme_medium.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.right > h1{
+    padding-top:80px ;
+    font-size: 38px;
+}
+.right > h3{
+    font-size: 18px;
+    margin: 10px;
+    font-weight: 500;
+}
+.right > .links a{
+    margin: 20px;
+    color: royalblue;
+    font-size: 22px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+@media (max-width:600px) {
+    .page1 .nav h4{
+        opacity: 0;
+    }
+    
+.ri-apple-fill{
+    
+    left: 2%;
+    position: absolute;
+    font-size: 23px;
+}    
+
+.ri-search-line{
+    position: absolute;
+    font-size: 23px;
+    font-weight: 100;
+    right: 33%;
+}
+
+.ri-shopping-bag-line{
+    position: absolute;
+    font-size: 23px;
+    right: 22%;
+    font-weight: 100;
+}
+
+.ri-menu-3-line{
+    position: absolute;
+    font-size: 23px;
+    font-weight: 100;
+    right: 10%;
+    color: rgb(255, 255, 255); 
+   
+}
+.nav2 h4{
+    background-color: #434343;
+    color: white;
+    height: 160px;
+    margin-top: 110px;
+    padding: 5px 40px;
+    font-size: 25px;
+}
+.center h1{
+    font-size: 10vw;
+    padding-top: 150px;
+}
+.center{
+    background-size: 250vw;
+    
+    background-position: bottom;
+    background-image:  url( https://www.apple.com/v/home/bc/images/heroes/macbook-air-15/hero_macbook_air_15__x63n8tqcpo2u_large_2x.jpg);
+}
+
+.page4{
+    flex-direction: column;
+}
+.page4 .left{
+    width: 100%;
+    height: 100%;
+    background-position: top;
+}
+.page4 .right{
+    width: 100%;
+    height: 100%;
+    background-position: top;
+}
+.page4 .left h1{
+    font-size: 20px;
+    transform: translate(0, -120px);
+}
+
+.page4 .left h3{
+    font-size: 15px;
+    transform: translate(0, -120px);
+}
+
+.page4 .left .links{
+    font-size: 10px;
+    transform: translate(0, -125px);
+}
+.page4 .right{
+    background-position: top;
+    background-size: 300px;
+    width: 100vw;
+    background-color: white;
+}
+.page4 .right h1{
+    font-size: 30px;
+    transform: translate(0, -80px);
+}
+
+.page4 .right h3{
+    font-size: 15px;
+    transform: translate(0, -80px);
+}
+
+.page4 .right .links{
+    font-size: 5px;
+    transform: translate(0, -80px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
